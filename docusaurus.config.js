@@ -70,12 +70,12 @@ const config = {
 				links: [
 					{
 						title: "Docs",
-						items: [
-							{
-								label: "Tutorial",
-								to: "/docs/intro",
-							},
-						],
+						// items: [
+						// 	{
+						// 		label: "Tutorial",
+						// 		to: "/docs/intro",
+						// 	},
+						// ],
 					},
 					{
 						title: "Community",
@@ -97,10 +97,10 @@ const config = {
 					{
 						title: "More",
 						items: [
-							{
-								label: "Blog",
-								to: "/blog",
-							},
+							// {
+							// 	label: "Blog",
+							// 	to: "/blog",
+							// },
 							{
 								label: "GitHub",
 								href: "https://github.com/facebook/docusaurus",
