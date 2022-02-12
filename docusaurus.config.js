@@ -13,8 +13,8 @@ const config = {
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
 	favicon: "img/favicon.ico",
-	organizationName: "facebook", // Usually your GitHub org/user name.
-	projectName: "docusaurus", // Usually your repo name.
+	organizationName: "8mn", // Usually your GitHub org/user name.
+	projectName: "docu", // Usually your repo name.
 
 	presets: [
 		[
@@ -26,7 +26,7 @@ const config = {
 					sidebarPath: require.resolve("./sidebars.js"),
 					// Please change this to your repo.
 					editUrl:
-						"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+						"https://github.com/8mn/docu/tree/main",
 				},
 				blog: false,
 				theme: {
@@ -54,12 +54,12 @@ const config = {
 					// },
 					// {to: '/blog', label: 'Blog', position: 'left'},
 					{
-						href: "https://github.com/facebook/docusaurus",
+						href: "https://github.com/8mn",
 						label: "GitHub",
 						position: "right",
 					},
 					{
-						href: "https://github.com/facebook/docusaurus",
+						href: "https://mnsh.me",
 						label: "Home",
 						position: "right",
 					},
@@ -108,7 +108,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+				// copyright: `Copyright © ${new Date().getFullYear()} Manish's wiki. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: lightCodeTheme,
